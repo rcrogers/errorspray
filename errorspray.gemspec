@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = ''
   s.authors     = ['Chris Rogers']
   s.email       = ''
-  s.files       = Dir["#{File.dirname __FILE__}/**/*.rb"]
+  s.files       = Dir.glob("{bin,lib}/**/*")
   s.homepage    = 'https://github.com/rcrogers/errorspray'
 
   [
