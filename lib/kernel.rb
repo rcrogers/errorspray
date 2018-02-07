@@ -1,6 +1,8 @@
 module Kernel
 
-  private def raise_append(*appenders)
+  private
+
+  def raise_append(*appenders)
     yield
   rescue Exception => exception
     result_message = exception.message

@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob("{bin,lib}/**/*")
   s.homepage    = 'https://github.com/rcrogers/errorspray'
 
-  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec-core'
+  s.add_development_dependency 'rspec-expectations'
 
 end
