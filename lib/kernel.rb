@@ -12,7 +12,7 @@ module Kernel
       when Proc; appender.call
       else raise "invalid appender: #{appender.inspect}"
       end
-      result_message.concat "\n\t#{append_message}" if append_message =~ /\S/
+      result_message.concat "\n\t#{append_message}"
     end
     raise exception, result_message, exception.backtrace
   end
