@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    errorspray (0.0.2)
+    errorspray (1.0.0)
 
 GEM
   remote: https://rubygems.org/
